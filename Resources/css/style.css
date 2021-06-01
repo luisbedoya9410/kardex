@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 5.2rem;
+}
+
+.kardex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.8rem;
+}
+
+h1 {
+  color: #1d1b4c;
+  background-color: #dae1f3;
+}
+
+.inputClass {
+  width: 480px;
+  height: 60%;
+  margin-bottom: 10%;
+}
+
+.inputClass-tittle {
+  background-color: #adff30;
+  color: #000400;
+  width: 110px;
+  margin-left: 8px;
+  margin-bottom: 1.3rem;
+}
+
+.inputClass-info {
+  margin-left: 50px;
+  background-color: #c6e0b3;
+  color: #082d05;
+  width: 280px;
+  margin-bottom: 1.2rem;
+}
+
+.inputClass-total {
+  margin-left: 8px;
+  margin-bottom: 1.2rem;
+  background-color: #adff30;
+  color: #000400;
+  width: 322px;
+}
+
+.outputClass-tittle {
+  background-color: #fe0000;
+  color: white;
+  width: 110px;
+  margin-left: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.outputClass-info {
+  margin-left: 50px;
+  background-color: #ffe699;
+  width: 280px;
+  margin-bottom: 1.2rem;
+}
+
+.outputClass-Total {
+  margin-left: 8px;
+  margin-bottom: 2.3rem;
+  width: 322px;
+  background-color: #fe0000;
+  color: white;
+}
+
+.outputClass-footer {
+  width: 322px;
+  margin-left: 8px;
+  background-color: #012060;
+  color: white;
+}
+
+ul {
+  text-align: left;
+  padding: 0.2rem 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 5.2rem;
+}
+
+.kardex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.8rem;
+}
+h1 {
+  color: rgb(29, 27, 76);
+  background-color: rgb(218, 225, 243);
+}
+
+.inputClass {
+  width: 480px;
+  height: 60%;
+  margin-bottom: 10%;
+
+  &-tittle {
+    background-color: rgb(173, 255, 48);
+    color: rgb(0, 4, 0);
+    width: 110px;
+    margin-left: 8px;
+    margin-bottom: 1.3rem;
+  }
+
+  &-info {
+    margin-left: 50px;
+    background-color: rgb(198, 224, 179);
+    color: rgb(8, 45, 5);
+    width: 280px;
+    margin-bottom: 1.2rem;
+  }
+
+  &-total {
+    margin-left: 8px;
+    margin-bottom: 1.2rem;
+    background-color: rgb(173, 255, 48);
+    color: rgb(0, 4, 0);
+    width: 322px;
+  }
+}
+
+.outputClass {
+  &-tittle {
+    background-color: rgb(254, 0, 0);
+    color: white;
+    width: 110px;
+    margin-left: 8px;
+    margin-bottom: 1.2rem;
+  }
+
+  &-info {
+    margin-left: 50px;
+    background-color: rgb(255, 230, 153);
+    width: 280px;
+    margin-bottom: 1.2rem;
+  }
+
+  &-Total {
+    margin-left: 8px;
+    margin-bottom: 2.3rem;
+    width: 322px;
+    background-color: rgb(254, 0, 0);
+    color: white;
+  }
+
+  &-footer {
+    width: 322px;
+    margin-left: 8px;
+    background-color: rgb(1, 32, 96);
+    color: white;
+  }
+}
+
+ul {
+  text-align: left;
+  padding: 0.2rem 0;
+}
